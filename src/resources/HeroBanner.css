@@ -1,0 +1,76 @@
+.hero{
+
+    height: 60vh;
+    width: 100%;    
+    background-color: #0167B0;
+    /* z-index: -5; */
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    
+}
+.hero p{
+    height: 136px;
+    width: 766.87px;
+    font-size: 3rem;
+    color: white;
+    padding: 40px 20px;
+    background: #0167B0;
+}
+.stations{
+    width: 156.12px;
+    height: 75.26px;
+    margin-right: -3px;
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+    background: #89C400;
+    color: white;
+}
+.searchbtn{
+    width: 56.12px;
+    height: 75.26px;
+    margin-left: -8px;
+    background: white;
+    border: none;
+    border-radius: 8px;
+
+}
+.searchbox{
+    width: 556.12px;
+    height: 76px;
+    border: none;
+    background: #fff;
+}
+.search{
+    padding: 20px;
+    background: #0167B0;
+}
+.search option{
+    background: #fff;
+    color: #000;
+
+}
+/* .eclipse1{
+    display: block;
+    background: #9BDB08;
+    border-radius: 0rem 0rem 23rem 30rem;
+    height: 900px;
+    width: 900px;
+    top: -450pt;
+    left: 900px;
+    z-index: -10;
+    position: relative;
+}
+.eclipse2{
+    display: block;
+    background: #89C400;
+    border-radius: 50%;
+    height: 1200px;
+    width: 1200px;
+    position: relative;
+    z-index: -9;
+} */

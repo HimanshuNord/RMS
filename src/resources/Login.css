@@ -1,0 +1,153 @@
+
+.logincard{
+    width: 1280.38px;
+    height: 635.49px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 14vh;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 3rem;
+    background-color: white;
+    box-shadow: 0px 4px 10px 3px #888;
+    margin-bottom: 3rem;
+
+}
+.logos svg{
+    background: #2B6CA2;
+}
+.logos{
+    background: #2B6CA2;
+}
+.banner{
+    
+    width: 640px;
+    height: 635.49px;
+    background: #2B6CA2;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner h1{
+    width: 514px;
+    height: 168px;
+    background: #2B6CA2;
+    font-family: Public Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+
+
+}
+.details{
+    width: 640.38px;
+    height: 635.49px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    /* padding-left: 6%; */
+
+}
+.employee{
+    height: 5rem;
+   width: 12rem;
+   border: none;
+   background: white;
+   color: #828282;
+   border-bottom: 7.5px #F2F2F2 solid;
+}
+.newsroom {
+    height: 5rem;
+    width: 12rem;
+    border: none;
+    background: white;
+    color: #828282;
+    border-bottom: 7.5px #F2F2F2 solid;
+
+}
+.employee:focus, .newsroom:focus , .focus{
+    color: #89C400;
+    border-bottom: #89C400 7.5px solid;
+}
+
+.employee:active, .newsroom:active {
+    color: #89C400;
+    border-bottom: #89C400 7.5px solid;
+}
+
+.emplpyeelog , .newsroomlog{
+    display: flex;
+    flex-direction: column;
+    padding-left: 4rem;
+    background-color: white;
+}
+
+.emplpyeelog p , .newsroomlog p{
+    margin-top: 2rem;
+    background-color: white;
+}
+.emplpyeelog input[type=text], .newsroomlog input[type=text]{
+    margin-top: 1rem;
+    width: 542.43px;
+    height: 55.22px;
+    border-radius: 10px 10px;
+    background: #F2F2F2;
+    border: none;
+}
+.swapbtn{
+    margin-left: 15vh;
+    background-color: white;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    margin-top: 3rem;
+    padding-right: 4rem;
+    background-color: white;
+}
+.logbtn{
+    width: 186px;
+    height: 46px;
+    top: 514.7759399414062px;
+    left: 763px;
+    border-radius: 10px;
+    border: #194D79 3px solid;
+    color: #194D79;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.logbtn:hover{
+    background: #194D79;
+    color: #f1f1f1;
+}
+.loglink{
+    text-decoration: none;
+    color: #777777;
+    background-color: white;
+    
+}
+
+.reg{
+    color: #89C400;
+    text-decoration: underline;
+    background-color: white;
+}
+
+.hide{
+    display: none !important;
+}
+.show{
+    display: block !important;
+}
+
+.newHeight{
+    height: 735.49px !important;
+}

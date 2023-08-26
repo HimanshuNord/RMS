@@ -1,0 +1,291 @@
+.settings-wrap{
+    width: 1280.38px;
+    height: 785.49px;
+    display: flex;
+    position: relative;
+    left: 14vh;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 3rem;
+    background-color: white;
+    box-shadow: 0px 4px 10px 3px #888;
+    margin-bottom: 3rem;
+
+}
+.btn-menu{
+    width: 340px;
+    height: 785.49px;
+    background: #ffffff;
+    border-right: 1px #BDBDBD solid;
+    border-radius: 10px 0px 0px 10px;
+}
+.btn-menu h1{
+    background: #ffffff;
+    font-size: 36px;
+    margin-left: 1rem;
+}
+.btn-menu button{
+    width: 340px;
+    height: 70.25px;
+    border: none;
+    text-align: left;
+    padding-left: 1rem;
+    background: white;
+
+}
+.btn-menu button:hover{
+    background: #f5f5f5;
+}
+.btn-menu button:focus , .foc{
+    background: #f5f5f5;
+}
+.btn-menu button:active , .act{
+    background: #f5f5f5;
+}
+.allInputs input[type='text']{
+    background: #F2F2F2;
+    width: 740px;
+    height: 42px;
+    border-radius: 10px;
+    border: none;
+
+}
+.forms{
+    display: flex;
+    padding-left: 30px;
+    background: #fff;
+    height: 785.49px;
+    width: calc( 1280.38px - 340px );
+}
+.profpic{
+    display: flex;
+    background: #ffffff;
+}
+.forms h1{
+    font-family: Public Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: #ffffff;
+
+}
+.profform{
+    background: #ffffff;
+}
+.profbtn{
+    padding-top: 1rem;
+    background: #ffffff;
+}
+.allInputs{
+    background: #ffffff;
+}
+.profform p{
+    background: #ffffff;
+}
+.allInputs select{
+    background: #F2F2F2;
+    width: 740px;
+    height: 42px;
+    border-radius: 10px;
+    border: none;
+
+}
+.allInputs input[type='file']{
+    background: #F2F2F2;
+    width: 740px;
+    height: 42px;
+    border-radius: 10px;
+
+}
+.profpic p , .profpic b , .profpic img, .profpic label, .subform{ 
+    background: #ffffff;
+}
+.profbtn button{
+    padding: 10px 20px;
+    margin-right: 1rem;
+    width: 133px;
+    border-radius: 10px;
+    background: #ffffff;
+    border: 2px #194D79 solid;
+    color: #194D79;
+}
+.save{
+    background: #194D79 !important;
+    color: #ffffff !important;
+}
+.profbtn button:hover{
+    background: #194D79;
+    color: #ffffff;
+}
+.allInputs p{
+    background: #ffffff;
+}
+.contform{
+    background: #fff;
+}
+.subwrap{
+    display: flex;
+    background: white;
+    width: 578.2px;
+    height: 118.99px;
+    align-items:center;
+    border: 2px #E0E0E0 solid;
+    border-radius: 10px;
+}
+
+.div1{
+    width: 16.76px;
+    height: 118.99px;
+    background: #89C400;
+    border-radius: 9px 0px 0px 9px;
+}
+.div2{
+    width: 200.22px;
+    height: 118.99px;
+    background: #9BDB08;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.div3{
+    width: calc( 579.2px - 16.76px - 200.22px);
+    display: flex;
+    height: 118.99px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: #fff;
+    border-radius: 0px 9px 9px 0px;
+    
+}
+.subform{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.subform a{
+    text-decoration: none;
+    background: #fff;
+    color: #194D79;
+    margin-top: 20px;
+    font-family: Public Sans;
+}
+.subform a:hover{
+    text-decoration: underline;
+}
+.p1{
+    background: #9BDB08;
+    /* font-family: Public Sans; */
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    
+}
+.p2{
+    font-family: Public Sans;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #9BDB08;
+    margin: 0;
+    color: #fff;
+}
+.p3{
+    font-family: Public Sans;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #194D79;
+    background: #fff;
+    margin: 0;
+    margin-right: 1rem;
+}
+.p4{
+    font-family: Public Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #194D79;
+    background: #fff;
+    margin: 0;
+    margin-right: 1rem;
+}
+.veriform{
+    background: #fff;
+    width: 578.2px;
+    height: 118.99px;
+}
+.variwrap{
+    display: flex;
+    justify-content: space-around;
+    background: #fff;
+;
+
+}
+.box{
+    width: 75.81px;
+    height: 75.81px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px #828282 dashed;
+    border-radius: 10px;
+    font-size: 40px;
+    color: #828282;
+    font-weight: bolder;
+}
+.veribtn{
+    background-color: white;
+    margin-top: 2rem;
+    height: 46px;
+    width: 178px;
+    border-radius: 10px;
+    border: 2px #194D79 solid;
+    color: #194D79;
+}
+.veribtn:hover{
+    color: white;
+    background: #194D79;
+}
+
+.chpassform input[type='password']{
+    background: #F2F2F2;
+    width: 740px;
+    height: 42px;
+    border-radius: 10px;
+    border: none;
+
+}
+.chpassform input[type='text']{
+    background: #F2F2F2;
+    width: 740px;
+    height: 42px;
+    border-radius: 10px;
+    border: none;
+
+}
+.chpassform{
+    background: #fff;
+    width: 578.2px;
+    height: 118.99px;
+}
+.chpassinp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: #fff
+}

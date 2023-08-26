@@ -1,0 +1,27 @@
+.footerwrap{
+    width: 1280.3585205078125px;
+    height: 33px;
+
+    left: 80.5px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    left: 14vh;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.footerlinks{
+    display: flex;
+}
+.footerlink{
+    margin-right: 2rem;
+    text-decoration: none;
+    color: #828282;
+}
+.footerlogolinks{
+    margin-left: 2rem;
+}
+.footerlogolink{
+    margin-right: 1rem;
+}
