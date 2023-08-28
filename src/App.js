@@ -11,10 +11,10 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-      <Router basename={`/RMS/${process.env.PUBLIC_URL}`}>
+      <Router basename={`${process.env.PUBLIC_URL}`}>
         <Nav/>
         <Routes>
-          <Route exact path='/RMS' element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/AccountSettigs" element={<AccountSettings />} />
           <Route path="/About" element={<About />}/>
