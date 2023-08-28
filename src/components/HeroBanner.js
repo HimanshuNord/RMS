@@ -1,6 +1,6 @@
   import React from 'react'
   import "../resources/HeroBanner.css"
-
+  import { Link } from 'react-router-dom'
 
   const HeroBanner = () => {
     return (
@@ -18,7 +18,7 @@
             <input className='searchbox' type='text' placeholder='Search Sections...'></input>
             <button className='searchbtn'>search</button>
           </div>
-          <button>Find a News Directior By Name </button>
+          <Link style={{backgroundColor:"#0167B0", color:"white", textDecoration: "None"}} >Find a News Directior By Name </Link>
         </div>
       </>
     )
