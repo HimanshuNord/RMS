@@ -1,7 +1,7 @@
 
 .logincard{
     width: 1280.38px;
-    height: 635.49px;
+    height: 645.49px;
     display: flex;
     justify-content: center;
     position: relative;
@@ -23,7 +23,7 @@
 .banner{
     
     width: 640px;
-    height: 635.49px;
+    height: 645.49px;
     background: #2B6CA2;
     border-radius: 10px 0px 0px 10px;
     display: flex;
@@ -55,23 +55,17 @@
     /* padding-left: 6%; */
 
 }
-.employee{
+.employee , .newsroom {
     height: 5rem;
    width: 12rem;
    border: none;
    background: white;
    color: #828282;
    border-bottom: 7.5px #F2F2F2 solid;
+   font-size: 24px;
+   font-weight: 700;
 }
-.newsroom {
-    height: 5rem;
-    width: 12rem;
-    border: none;
-    background: white;
-    color: #828282;
-    border-bottom: 7.5px #F2F2F2 solid;
 
-}
 .employee:focus, .newsroom:focus , .focus{
     color: #89C400;
     border-bottom: #89C400 7.5px solid;
@@ -93,9 +87,9 @@
     margin-top: 2rem;
     background-color: white;
 }
-.emplpyeelog input[type=text], .newsroomlog input[type=text]{
+.emplpyeelog input[type=text], .newsroomlog input[type=text],.emplpyeelog input[type=password], .newsroomlog input[type=password]{
     margin-top: 1rem;
-    width: 542.43px;
+    width: 502.43px;
     height: 55.22px;
     border-radius: 10px 10px;
     background: #F2F2F2;
@@ -121,7 +115,8 @@
     border-radius: 10px;
     border: #194D79 3px solid;
     color: #194D79;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
 
 }
 .logbtn:hover{

@@ -102,3 +102,18 @@ export const Regbtn = (Wrap, Div) => {
   children[selchild].classList.add("active");
   children[selchild].classList.add("focus");
 };
+
+export const directorSwich = (isDirector) => {
+  if(isDirector){
+    document.querySelector('.search').classList.add('shows')
+    document.querySelector('.search').classList.remove('hides')
+    document.querySelector('.search-director').classList.add('hides')
+    document.querySelector('.search-director').classList.remove('shows')
+  }
+  else{
+    document.querySelector('.search-director').classList.add('shows')
+    document.querySelector('.search-director').classList.remove('hides')
+    document.querySelector('.search').classList.add('hides')
+    document.querySelector('.search').classList.remove('shows')
+  }
+}

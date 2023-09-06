@@ -1,0 +1,24 @@
+.newsLetterSide{
+    height: 341.46px;
+    width: 383.57px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 15px;
+    margin-bottom: 8%;
+}
+.newsLetterSide img{
+    width: 383.57px;
+    height: 211.86px;
+    border-radius: 15px 15px 0px 0px;
+}
+.newsLetterSide h3{
+    text-align: left;
+    background: transparent;
+    padding: 0px 25px 0px 25px;
+    color: black;
+
+}
+.newsletter-card{
+    text-decoration: none;
+}

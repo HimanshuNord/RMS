@@ -1,0 +1,189 @@
+
+.searchbtn{
+    width: 56.12px;
+    height: 76px;
+    margin-left: -1px;
+    background: white;
+    border: none;
+    border-radius: 0px 20px 20px 0px;
+
+
+}
+.searchbox{
+    padding-left: 12px;
+    width: 803.21px;
+    height: 76px;
+    border: none;
+    background: #fff;
+
+}
+.search{
+    
+    display: flex;
+    justify-content: center;
+    
+    background: transparent;
+}
+.search option{
+    background: #fff;
+    color: #000;
+    
+
+}
+
+.parent{
+    display: flex;
+    margin: 0 5%;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.herop{
+    font-weight: 700;
+    width: 766.866455078125px;
+    height: 136px;
+    color: white;
+    font-size: 58px;
+    padding-bottom: 40px;
+    margin: 0;
+    background: transparent;
+}
+.newssub{
+    height: 241.46px;
+    width: 383.57px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 15px;
+    margin-bottom: 8%;
+    align-items: center;
+
+}
+.newssub h2{
+    padding: 0px 25px 0px 25px;
+    background: transparent;
+}
+.search-director{
+    padding: 20px;
+    background: transparent;
+
+}
+.searchbox-director{
+    padding-left: 12px;
+    width: 980.21px;
+    height: 76px;
+    border: none;
+    background: #fff;
+    
+    border-radius:  20px 0px 0px 20px;
+}
+.follink{
+    height: 181.46px;
+    width: 383.57px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 15px;
+    margin-bottom: 8%;
+    justify-content: space-evenly;
+    
+}
+.follink span, .follink img{
+    background: transparent;
+}
+.follink span{
+    margin: 0px 25px 0px 25px;
+}
+.RMS-Shop-Home{
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto auto;
+    grid-row: auto auto;
+    width: 100%;
+    
+}
+.Rms-Shop-btn{
+    height: 42.27px;
+    width: 196px;
+    border-radius: 25px;
+    background-color: #194D79;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: #194D79 2px solid;
+    margin-top: 1rem;
+}
+.Rms-Shop-btn:hover{
+    background: #023663;
+}
+.lookforworkbtn{
+    width: 231.2px;
+    height: 64.35px;
+    border-radius: 15px;
+    border: hidden;
+    font-size: 20px;
+    font-weight: bold;
+}
+.lookforworkbtn:hover{
+    background: #E4E4E4;
+}
+.hides{
+    display: none;
+}
+.shows{
+    display: flex;
+}
+
+
+
+
+
+.dropbtn {
+    background-color: transparent   ;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    height: 100%;
+    width: 176.12px;
+}
+
+.dropdown {
+    width: 176.12px;
+    height: 76px;
+    border: none;
+    border-radius:  20px 0px 0px 20px;
+    background: #89C400;
+    color: white;
+    margin-top: 0px;
+    padding: 0px 10px 0px 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 
+        0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.stations:hover .dropdown-content {
+    display: block;
+}
+
+.stations:hover .dropbtn {
+    background-color: #74A503;
+}

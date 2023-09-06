@@ -7,8 +7,12 @@ import About from './components/About'
 import Nav from './components/Nav';
 import Register from './components/Register';
 import Footer from './components/Footer';
+import { useState } from 'react';
+import Faq from './components/Faq'
+import FaqSearch from './components/FaqSearch';
 
 function App() {
+  const [search, setSearch] = useState('')
   return (
     <>
       <Router basename={`${process.env.PUBLIC_URL}`}>
@@ -19,6 +23,8 @@ function App() {
           <Route path="/AccountSettigs" element={<AccountSettings />} />
           <Route path="/About" element={<About />}/>
           <Route path="/Register" element={<Register/>}/>
+          <Route path="/Faq" element={<Faq setSearch={setSearch} search={search} />} />
+          <Route path="FaqSearch" element={<FaqSearch search={search} />} />
         </Routes>
         <Footer />
       </Router>

@@ -11,7 +11,7 @@
 .wrapper {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    position: relative;
     padding-top: 2vh;
     padding-bottom: 2vh;
     padding-left: 5vh;
@@ -26,27 +26,53 @@
     width: 15vh;
     padding-left: 10px;
     padding-right: 10px;
-    border: none;
     background: white;
+    border: 3px hidden;
+    
+    font-weight: 300;
+    font-size: 16px;
     
 }
 .icons button{
     height: 5vh;
     width: 16vh;
-
     border-radius: 8px;
     padding-left: 4vh;
     padding-right: 4vh;
     color: #194D79;
     border-color: #194D79;
     background-color: white;
-    font-size: large;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.icons button:hover{
+    background: #194D79;
+    color: white;
 }
 
 .links button:hover{
+    text-shadow:
+    0px 0px 1px #000000;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.links button:focus{
+    font-weight: bold;
     border-bottom: 3px solid #89C400;
 }
 .links{
     display: flex;
     justify-content: space-evenly;
+}
+.icons{
+    background: transparent;
+    border: none;
+    position: absolute;
+    right: 20px;
 }

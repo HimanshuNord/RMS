@@ -1,0 +1,61 @@
+.LatestRating-Card{
+    width: 867px;
+    height: 889px;
+    background: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Card-Top{
+    height: 104px;
+    width: calc( 100% - 40px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px 0 20px;
+    border-bottom: 1px #F2F2F2 solid;
+}
+.DirectorFeedback{
+    width: 802px;
+    height: 169px;
+    border-radius: 8px;
+    background: #F2F2F2;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+.directorpfp{
+    width: 294px; 
+    border-radius: 8px;
+    position: absolute;
+    height: 169px;
+    
+}
+.directorReview{
+    width: calc(802px - 294px);
+    height: 130px;
+    position: absolute;
+    right: 10px;
+}
+.directorReview p{
+    font-size: 16px;
+    margin: 0;
+    line-height: 26px   ;
+}
+.directorpfp img{
+    position: absolute;
+    top:24px;
+    left: 20px;
+}
+.workhere{
+    width: 802px;
+    background: transparent;
+    margin-top: 26px;
+}
+.ratingwrap{
+    width: 802px;
+    height: 88.60px;
+}

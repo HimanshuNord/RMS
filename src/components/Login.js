@@ -34,17 +34,17 @@ const Login = () => {
           <button className='newsroom' onClick={handleNewsroomClick}>Newsroom</button>
           </div>
           <form className='emplpyeelog show'>
-            <p>Username</p>
-            <input type='text' placeholder='Type your username here...'></input>
-            <p>Password</p>
-            <input type='text' placeholder='Type your password here...'></input>
+            <p style={{fontSize:'16px',fontWeight:'400'}}>Username</p>
+            <input style={{paddingLeft:'20px'}} type='text' placeholder='Type your username here...'></input>
+            <p style={{fontSize:'16px',fontWeight:'400'}}>Password</p>
+            <input style={{paddingLeft:'20px'}} type='password' placeholder='Type your password here...'></input>
             <div className='btn'><input className='logbtn' type='submit' value='Login'/> <a className='loglink' href='/'>Forgot password?</a></div>
             <p>Don't have any account?<button onClick={handleRedirect} style={{border:"none",color:"#89C400",background:'white',textDecoration:'underline'}}>Register here</button></p>          </form>
           <form className='newsroomlog hide'>
             <p>Station's name</p>
-            <input type='text' placeholder='Type your username here...'></input>
+            <input style={{paddingLeft:'20px'}} type='text' placeholder='Type your username here...'></input>
             <p>Password</p>
-            <input type='text' placeholder='Type your password here...'></input>
+            <input style={{paddingLeft:'20px'}} type='password' placeholder='Type your password here...'></input>
             <div className='btn'><input className='logbtn' type='submit' value='Login'/> <a className='loglink' href='/'>Forgot password?</a></div>
             <p>Don't have any account?<button onClick={handleRedirect} style={{border:"none",color:"#89C400",background:'white',textDecoration:'underline'}}>Register here</button></p>
           </form>

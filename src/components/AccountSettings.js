@@ -39,15 +39,15 @@ const AccountSettings = () => {
 
             <div className='btn-menu'>
             <h1>Account Settings</h1>
-                <button id='prof focus' onClick={handleProfileClick}><img src='https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAxL3JtNjA5LXNvbGlkaWNvbi13LTAwMi1wLnBuZw.png' height='27.09px' width='27.09px' alt='pfp'></img> Profile</button>
-                <button id='cont' onClick={handleContactClick}><img src='https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAxL3JtNjA5LXNvbGlkaWNvbi13LTAwMi1wLnBuZw.png' height='27.09px' width='27.09px' alt='pfp'></img> Contact Info</button>
-                <button id='sub' onClick={handleSubscriptionClick}><img src='https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAxL3JtNjA5LXNvbGlkaWNvbi13LTAwMi1wLnBuZw.png' height='27.09px' width='27.09px' alt='pfp'></img> Subscription</button>
-                <button id='veri' onClick={handleVerificatonClick}><img src='https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAxL3JtNjA5LXNvbGlkaWNvbi13LTAwMi1wLnBuZw.png' height='27.09px' width='27.09px' alt='pfp'></img> Verification</button>
-                <button id='chpass' onClick={handleChangePasswordClick}><img src='https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAxL3JtNjA5LXNvbGlkaWNvbi13LTAwMi1wLnBuZw.png' height='27.09px' width='27.09px' alt='pfp'></img> Change Password</button>
+                <button className='prof foc act' id='prof' onClick={handleProfileClick}><img src='https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAxL3JtNjA5LXNvbGlkaWNvbi13LTAwMi1wLnBuZw.png' height='27.09px' width='27.09px' alt='pfp'></img> Profile</button>
+                <button className='cont' id='cont' onClick={handleContactClick}><img src='https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAxL3JtNjA5LXNvbGlkaWNvbi13LTAwMi1wLnBuZw.png' height='27.09px' width='27.09px' alt='pfp'></img> Contact Info</button>
+                <button className='sub' id='sub' onClick={handleSubscriptionClick}><img src='https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAxL3JtNjA5LXNvbGlkaWNvbi13LTAwMi1wLnBuZw.png' height='27.09px' width='27.09px' alt='pfp'></img> Subscription</button>
+                <button className='veri' id='veri' onClick={handleVerificatonClick}><img src='https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAxL3JtNjA5LXNvbGlkaWNvbi13LTAwMi1wLnBuZw.png' height='27.09px' width='27.09px' alt='pfp'></img> Verification</button>
+                <button className='chpass' id='chpass' onClick={handleChangePasswordClick}><img src='https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAxL3JtNjA5LXNvbGlkaWNvbi13LTAwMi1wLnBuZw.png' height='27.09px' width='27.09px' alt='pfp'></img> Change Password</button>
             </div>
             <div className='forms'>
                 
-                  <form className='profform hide'>
+                  <form className='profform show'>
                     <h1>Profile</h1>
                     <div className='profpic'>
                       <img height={'124px'} src={require('../resources/profpng.png')} alt='profpic'></img>
