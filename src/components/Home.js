@@ -8,7 +8,6 @@ import { directorSwich } from '../util/function'
 import RMSShopCard from './RMSShopCard'
 import LookForWork from './LookForWork'
 import LatestRatingHome from './LatestRatingHome'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import 'remixicon/fonts/remixicon.css'
 
 
@@ -36,11 +35,11 @@ const Home = () => {
         <p className='herop' style={{marginBottom:"0"}}>Find thousands of Ratings <br/> from real Journalists</p>
           <div className='search'>
             <select className='stations'> 
-              <option style={{height:'43px'}} value="tvnews"> TV News</option> 
-              <option style={{height:'43px'}} value="radio">{<i class="ri-radio-2-fill"></i>}Radio</option> 
-              <option style={{height:'43px'}} value="youtube"><i class="ri-youtube-fill"></i> Youtube</option> 
-              <option style={{height:'43px'}} value="publications"> Publications</option> 
-              <option style={{height:'43px'}} value="podcasts"><FontAwesomeIcon icon="fa-solid fa-microphone-lines" /> Podcasts</option> 
+              <option style={{height:'43px'}} value="tvnews">TV News</option> 
+              <option style={{height:'43px'}} value="radio">Radio</option> 
+              <option style={{height:'43px'}} value="youtube">Youtube</option> 
+              <option style={{height:'43px'}} value="publications">Publications</option> 
+              <option style={{height:'43px'}} value="podcasts">Podcasts</option> 
             </select>
             <input className='searchbox' type='text' placeholder='Search Sections...'></input>
             <button style={{height:'76px'}} className='searchbtn'><img style={{height:'30px',borderRadius:'50%',width:'30px'}} src={require('../resources/search.png')} alt='Search'/></button>
@@ -72,7 +71,7 @@ const Home = () => {
             {/* <input type='text' placeholder='Search articles or writer'></input> */}
             <div style={{display:'flex', justifyContent:'space-between', margin:'10px 0 10px 0'}}>
               <h1 style={{fontSize:'36px', fontWeight:'bold'}}>Newsletter</h1>
-              <Link style={{ marginTop:'0.67em', marginBottom:'0.67em'}} to='/Newsletter' >See all</Link>
+              <Link style={{display:'flex',alignItems:'center'}} to='/Newsletter' >See all</Link>
             </div>
             {
               Object.values(newsltrside).map( ( obj , index ) => (

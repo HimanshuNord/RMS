@@ -5,7 +5,8 @@
     border-radius: 15px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin-bottom: 28px;
+    box-shadow: 0px 0px 10px #828282;
 }
 .Card-Top{
     height: 104px;
@@ -15,6 +16,7 @@
     align-items: center;
     margin: 0 20px 0 20px;
     border-bottom: 1px #F2F2F2 solid;
+    margin-left: 31px;
 }
 .DirectorFeedback{
     width: 802px;
@@ -25,6 +27,7 @@
     display: flex;
     align-items: center;
     position: relative;
+    margin-left: 31px;
 
 }
 .directorpfp{
@@ -54,8 +57,107 @@
     width: 802px;
     background: transparent;
     margin-top: 26px;
+    margin-left: 31px;
 }
 .ratingwrap{
     width: 802px;
     height: 88.60px;
+    margin-top: 26px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 31px;
+}
+.rating-box{
+    width: 34.71px;
+    height: 12.99px;
+    background: #F2F2F2;
+    border-radius: 6.49px;
+    border: none;
+}
+.rating-boxparent{
+
+    width: 201.88px;
+    height: 12.99px;   
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+    float: right;
+
+}
+.rating-parent-main{
+    width: 202.02px;
+    height: 88.32;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.addRating{
+    background: #89C400;
+}
+.removeRating{
+    background: #f2f2f2;
+}
+.tags{
+    display: flex;
+    background: transparent;
+    margin-top: 26px;
+    margin-left: 31px;
+    margin-bottom: 25.6px;
+}
+.actual-tags{
+    display: flex;
+    background: transparent;
+    margin-left: 22.85px;
+}
+.the-tag{
+    border-radius: 10px;
+    background: #f2f2f2;
+    height: 33.48px;
+    padding: 3.7px 15px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #828282;
+    text-align: center;
+    margin-right: 9.7px;
+    display: flex;
+    align-items: center;
+}
+.rect{
+    height: 1px;
+    width: calc(100% - 60px);
+    background: #E0E0E0;
+    margin-left: 32px;
+}
+.Likerep{
+    height: 46.08px;
+    padding: 13.18px 12.42px;
+    margin-right: 15px;
+    background: #F2F2F2;
+    border-radius: 10px;
+    border: 0px
+}
+.ratingbtm{
+    background: transparent;
+    margin-left:32.2px;
+    margin-top:23px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 31px;
+}
+.coment{
+    margin-left: 31px;
+    margin-top: 27.5px;
+    display: flex;
+    background: transparent;
+}
+.coment img{
+    margin-right: 16.6px;
+}
+.coment-value{
+    width: 728px;
+    height: 86px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
 }

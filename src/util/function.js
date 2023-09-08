@@ -117,3 +117,57 @@ export const directorSwich = (isDirector) => {
     document.querySelector('.search').classList.remove('shows')
   }
 }
+
+
+
+export let newsRating = 0 ;
+export const ratingNews = (getRating) => {
+  const ratingBoxParent = document.querySelector(".newsroomrating");
+  const ratingBox = ratingBoxParent.children;
+  let i=0;
+  for (i; i< getRating;i++){
+    ratingBox[i].classList.add('addRating')
+    ratingBox[i].classList.remove('removeRating')
+  }
+  for(let j=i;j<ratingBox.length;j++){
+    ratingBox[j].classList.remove('addRating')
+    ratingBox[j].classList.add('removeRating')
+
+  }
+ newsRating=i;
+} 
+
+export let workerRating = 0 ;
+export const ratingWorker = (getRating) => {
+  const ratingBoxParent = document.querySelector(".coworkersrating");
+  const ratingBox = ratingBoxParent.children;
+  let i=0;
+  for (i; i< getRating;i++){
+    ratingBox[i].classList.add('addRating')
+    ratingBox[i].classList.remove('removeRating')
+  }
+  for(let j=i;j<ratingBox.length;j++){
+    ratingBox[j].classList.remove('addRating')
+    ratingBox[j].classList.add('removeRating')
+
+  }
+  workerRating=i;
+}
+ 
+export let recomendRating = 0 ;
+export const ratingRecomend = (getRating) => {
+  const ratingBoxParent = document.querySelector(".recomendrating");
+  const ratingBox = ratingBoxParent.children;
+  let i=0;
+  for (i; i< getRating;i++){
+    ratingBox[i].classList.add('addRating')
+    ratingBox[i].classList.remove('removeRating')
+  }
+  for(let j=i;j<ratingBox.length;j++){
+    ratingBox[j].classList.remove('addRating')
+    ratingBox[j].classList.add('removeRating')
+
+  }
+  recomendRating =i;
+ 
+} 

@@ -73,3 +73,27 @@ export const rmsshop = {
         price:"$19.50"
     }
 }
+
+export const ratingvalues = {
+    News:{
+        Star1:'Very Bad Newsroom!!',
+        Star2:'Bad Newsroom!',
+        Star3:'Standard Newsroom',
+        Star4:'Nice Newsroom!',
+        Star5:'Awesome Newsroom!!'
+    },
+    Worker:{
+        Star1:'Very Not Friendly!!',
+        Star2:'Not Friendly!',
+        Star3:'Fine',
+        Star4:'Friendly!',
+        Star5:'Very Friendly!!'
+    },
+    Recomend:{
+        Star1:'Realy Not Recommend!!',
+        Star2:'Not Recommend!',
+        Star3:'Don’t Know',
+        Star4:'Recommend!',
+        Star5:'Very Recommend!!'
+    }
+}
