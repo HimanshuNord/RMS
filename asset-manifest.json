@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/RMS/static/css/main.dcd93ae8.css",
-    "main.js": "/RMS/static/js/main.b6435eaf.js",
+    "main.css": "/RMS/static/css/main.4e27abe6.css",
+    "main.js": "/RMS/static/js/main.f0fffbf6.js",
     "static/js/787.c31991e9.chunk.js": "/RMS/static/js/787.c31991e9.chunk.js",
     "static/media/remixicon.svg?t=1690730386070": "/RMS/static/media/remixicon.db77551b8efc76571c4f.svg",
     "static/media/pic1.png": "/RMS/static/media/pic1.1ba3e1a5b8116111c836.png",
@@ -20,12 +20,12 @@
     "static/media/brooklinpfp.png": "/RMS/static/media/brooklinpfp.8680ebfcf7ecd2896a52.png",
     "static/media/instagrampng.png": "/RMS/static/media/instagrampng.280874869b3a21bdc112.png",
     "index.html": "/RMS/index.html",
-    "main.dcd93ae8.css.map": "/RMS/static/css/main.dcd93ae8.css.map",
-    "main.b6435eaf.js.map": "/RMS/static/js/main.b6435eaf.js.map",
+    "main.4e27abe6.css.map": "/RMS/static/css/main.4e27abe6.css.map",
+    "main.f0fffbf6.js.map": "/RMS/static/js/main.f0fffbf6.js.map",
     "787.c31991e9.chunk.js.map": "/RMS/static/js/787.c31991e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcd93ae8.css",
-    "static/js/main.b6435eaf.js"
+    "static/css/main.4e27abe6.css",
+    "static/js/main.f0fffbf6.js"
   ]
 }
